@@ -18,7 +18,7 @@ def root():
     response = {
         'greeting': 'Servus, griaß di!',    # This is a typical Bavarian greeting ;)
         'timestamp': datetime.now(),
-        "lecture" : "is almost over!"
+        # "lecture" : "is almost over!"
     }
 
     return response
